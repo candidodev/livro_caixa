@@ -1,32 +1,21 @@
-# CodeIgniter 4 Application Starter
+# LIVRO CAIXA
+Aplicação em PHP, utilizando o framework codeigniter, disponibiliza movimentação de financeira de entradas e saídas. Além das movimentações básicas o sistema disponibiliza um dashboard para apresentar o resumo das movimentações do caixa. Também é possível emitir relatórios a partir dos filtros aplicados as movimentações.
+##CodeIgniter
 
-## What is CodeIgniter?
+CodeIgniter é um framework web PHP full-stack que é leve, rápido, flexível e seguro.
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](http://codeigniter.com).
+## Instalação/Atualização
 
-This repository holds a composer-installable app starter.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+Clonar o repositório com `git clone https://github.com/candidodev/livro_caixa.git`, em seguida atualizar as dependencias do projeto com `composer update`.
 
-More information about the plans for version 4 can be found in [the announcement](http://forum.codeigniter.com/thread-62615.html) on the forums.
-
-The user guide corresponding to this version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
-
-## Installation & updates
-
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
-
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
+Ao atualizar, verifique as notas da versão para ver se há alguma alteração que você precise aplicar
+para a pasta do seu aplicativo. Os arquivos afetados podem ser copiados ou mesclados de
 `vendor/codeigniter4/framework/app`.
 
 ## Setup
 
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
+Copiar o arquivo `env` para `.env` e adapte para seu aplicativo, especificamente o baseURL
+e quaisquer configurações de banco de dados.
 
 ## Important Change with index.php
 
