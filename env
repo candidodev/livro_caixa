@@ -23,7 +23,7 @@ CI_ENVIRONMENT = development
 
 # app.baseURL = ''
 # If you have trouble with `.`, you could also use `_`.
-app_baseURL = 'http://localhost/cashbook/';
+app_baseURL = 'http://localhost/livro_caixa/';
 # app.forceGlobalSecureRequests = false
 
 # app.sessionDriver = 'CodeIgniter\Session\Handlers\FileHandler'
